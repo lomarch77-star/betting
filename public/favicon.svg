@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="PaperDesk">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b2542"/>
+      <stop offset="100%" stop-color="#0b1020"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- ascending equity curve -->
+  <path d="M112 352 L208 256 L288 320 L400 176"
+        fill="none" stroke="#2fbf71" stroke-width="30"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- fast/slow EMA guide -->
+  <path d="M112 400 L400 400" stroke="#26304a" stroke-width="14" stroke-linecap="round"/>
+  <!-- signal diamond -->
+  <rect x="196" y="244" width="26" height="26" fill="#5b8cff"
+        transform="rotate(45 209 257)"/>
+  <circle cx="400" cy="176" r="22" fill="#2fbf71"/>
+</svg>
