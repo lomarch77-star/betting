@@ -1,0 +1,33 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# runtime data (SQLite database lives outside git)
+/data/*.sqlite
+/data/*.sqlite-*
+
+# env — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+.turbo
+/coverage
+*.tsbuildinfo
+
+# agent tooling caches (not project content)
+/.config/
+/.npm/
