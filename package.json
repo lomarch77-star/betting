@@ -1,0 +1,33 @@
+{
+  "name": "paperdesk",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Local-first, offline-capable crypto paper-trading agent that runs on your phone.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^25.0.1",
+    "prettier": "^3.9.8",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "vite-plugin-pwa": "^0.21.1",
+    "vitest": "^3.2.7"
+  }
+}
